@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to React Router!
 
 A modern, production-ready template for building full-stack React applications using React Router.
@@ -85,3 +86,7 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+=======
+# Roomify
+Roomify is an AI-powered app that transforms basic architectural floor plans into realistic, visually appealing interior images. It helps architects, designers, real estate professionals, and homeowners quickly visualize spaces, making design concepts easier to understand, present, and share.
+>>>>>>> e687abc626988659c7085625512fc0c06b268378
