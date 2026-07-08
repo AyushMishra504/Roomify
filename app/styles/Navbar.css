@@ -1,0 +1,45 @@
+@reference "../app.css";
+
+.navbar-header {
+  @apply max-w-7xl mx-auto px-6 py-6 flex items-center justify-between;
+}
+
+.navbar-left {
+  @apply flex items-center gap-8;
+}
+
+.navbar-logo {
+  @apply flex items-center gap-2 font-bold text-xl tracking-tight text-gray-900;
+}
+
+.navbar-logo-icon {
+  @apply w-8 h-8;
+}
+
+.navbar-nav {
+  @apply hidden md:flex items-center gap-6 text-sm font-medium text-gray-600;
+}
+
+.navbar-link {
+  @apply hover:text-black transition-colors;
+}
+
+.navbar-right {
+  @apply flex items-center gap-4 text-xs font-bold uppercase tracking-widest;
+}
+
+.navbar-username {
+  @apply text-gray-400;
+}
+
+.login {
+  @apply text-gray-900 px-4 py-2 rounded-md cursor-pointer;
+}
+
+.cta {
+  @apply bg-roomify-orange text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors cursor-pointer;
+}
+
+.greeting {
+  @apply py-2 px-2
+}

@@ -1,0 +1,133 @@
+@reference "../app.css";
+
+.home-body-wrapper {
+  @apply bg-roomify-bg font-sans text-gray-900 antialiased min-h-screen pb-24;
+}
+
+.home-main {
+  @apply max-w-5xl mx-auto px-6 pt-16 pb-24 text-center;
+}
+
+.badge-announcement {
+  @apply inline-flex items-center gap-2 px-3 py-1 bg-white border border-gray-200 rounded-full text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-10 shadow-sm;
+}
+
+.badge-pulse-dot {
+  @apply w-2 h-2 bg-blue-500 rounded-full animate-pulse;
+}
+
+.main-headline {
+  @apply font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-8 text-black;
+}
+
+.subtext {
+  @apply max-w-2xl mx-auto text-[11px] md:text-xs font-bold tracking-[0.2em] text-gray-500 uppercase leading-loose mb-12;
+}
+
+.cta-container {
+  @apply flex flex-col sm:flex-row items-center justify-center gap-4 mb-24;
+}
+
+.btn-cta-primary {
+  @apply bg-roomify-orange text-white px-8 py-4 rounded-lg font-bold text-sm flex items-center gap-2 shadow-lg shadow-orange-200 cursor-pointer;
+}
+
+.btn-cta-secondary {
+  @apply bg-white border border-gray-200 text-gray-900 px-8 py-4 rounded-lg font-bold text-sm hover:bg-gray-50 cursor-pointer;
+}
+
+.upload-section {
+  @apply relative max-w-4xl mx-auto;
+}
+
+.upload-grid-container {
+  @apply bg-blue-50/50 border border-blue-100 rounded-3xl p-8 md:p-16 min-h-[500px] flex items-center justify-center;
+}
+
+.upload-card {
+  @apply bg-white rounded-2xl shadow-xl p-8 md:p-12 w-full max-w-xl text-center border border-gray-100;
+}
+
+.upload-icon-container {
+  @apply w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center mx-auto mb-6;
+}
+
+.upload-icon {
+  @apply w-6 h-6 text-orange-400;
+}
+
+.upload-title {
+  @apply font-serif text-2xl mb-2 text-gray-900;
+}
+
+.upload-subtitle {
+  @apply text-gray-500 text-sm mb-8;
+}
+
+.upload-dropzone {
+  @apply border-2 border-dashed border-gray-200 rounded-xl py-12 px-4 cursor-pointer hover:border-roomify-orange transition-colors;
+}
+
+.upload-dropzone-icon-container {
+  @apply w-10 h-10 bg-gray-50 rounded-full flex items-center justify-center mx-auto mb-4;
+  
+  .group:hover & {
+    @apply bg-orange-50;
+  }
+}
+
+.upload-dropzone-icon {
+  @apply w-5 h-5 text-gray-400;
+  
+  .group:hover & {
+    @apply text-orange-400;
+  }
+}
+
+.upload-dropzone-title {
+  @apply text-sm font-semibold mb-1 text-gray-900;
+}
+
+.upload-dropzone-subtitle {
+  @apply text-xs text-gray-400;
+}
+
+.footer-container {
+  @apply fixed bottom-6 right-6 flex items-center gap-4;
+}
+
+.footer-jump-btn {
+  @apply bg-white px-4 py-2 rounded-full shadow-lg border border-gray-100 flex items-center gap-2 cursor-pointer hover:bg-gray-50 transition-colors;
+}
+
+.footer-jump-icon {
+  @apply w-4 h-4;
+}
+
+.footer-jump-text {
+  @apply text-sm font-semibold text-gray-900;
+}
+
+.footer-badge-container {
+  @apply bg-white p-2 rounded-full shadow-lg border border-gray-100;
+}
+
+.footer-badge {
+  @apply bg-blue-100 text-blue-600 font-bold text-[10px] w-8 h-8 flex items-center justify-center rounded-full;
+}
+
+/* Custom design styles */
+.grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(147, 197, 253, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(147, 197, 253, 0.2) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.btn-transition {
+  transition: all 0.2s ease-in-out;
+}
+.btn-transition:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
